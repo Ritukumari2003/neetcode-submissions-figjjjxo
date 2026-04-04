@@ -7,7 +7,7 @@
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         
-        # Brute force Approach
+        # Brute force Approach : TC : O(n+m)log(m+n) and SC : O(n+m)
         if not list1 and not list2:
             return None
         arr = []
