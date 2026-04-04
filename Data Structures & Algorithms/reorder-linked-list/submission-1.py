@@ -16,7 +16,7 @@ class Solution:
         return prev
 
     def reorderList(self, head: Optional[ListNode]) -> None:
-        # Brute Force Approach
+        # Optimal Approach : TC : O(n) and SC : O(1)
         if not head:
             return None
         slow = head
